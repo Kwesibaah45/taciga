@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Apostolic Church International, Georgia District: Austell Assembly and Gwinnett International Assembly. Service times, ministries, events and ways to give.">
+<meta property="og:title" content="The Apostolic Church International, Georgia District">
+<meta property="og:description" content="The Apostolic Church International, Georgia District: Austell Assembly and Gwinnett International Assembly. Service times, ministries, events and ways to give.">
+<meta property="og:image" content="assets/images/austell-church.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0e0c0b">
+<title>The Apostolic Church International | Georgia District</title>
+<link rel="icon" type="image/png" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ GLOBAL NAV ============ -->
+<nav class="gnav" id="gnav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="TACI Georgia District home">
+      <img src="assets/images/logo.png" alt="" width="24" height="24">
+      TACI Georgia District
+    </a>
+    <ul id="navlist">
+      <li><a href="#about">About</a></li>
+      <li><a href="#austell">Austell</a></li>
+      <li><a href="#gwinnett">Gwinnett</a></li>
+      <li><a href="#ministries">Ministries</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#give">Give</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span></button>
+  </div>
+</nav>
+
+<main>
+<!-- ======================= HOME ======================= -->
+<section data-view="home">
+  <div class="ribbon">Two assemblies, one family. Join us this Sunday in Austell or Gwinnett. <a href="#visit">Plan your visit ›</a></div>
+
+  <header class="hero on-night">
+    <div class="hero-photo" role="img" aria-label="Austell Assembly church building at 4798 Austell Road, Austell, GA 30106"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <canvas id="ember" aria-hidden="true"></canvas>
+    <div class="wrap inner">
+      <img class="hero-logo load-in" src="assets/images/logo.png" alt="The Apostolic Church International logo" width="104" height="104">
+      <p class="eyebrow load-in">The Apostolic Church International · Georgia District</p>
+      <h1 class="hero-h"><span class="hw" style="--i:0">One</span> <span class="hw" style="--i:1">Shepherd,</span><br><em><span class="hw" style="--i:2">One</span> <span class="hw" style="--i:3">Fold.</span></em></h1>
+      <p class="sub load-in d2">An Apostolic family of faith worshipping across metro Atlanta.</p>
+      <div class="actions load-in d3">
+        <a class="pill" href="#visit">Plan a visit</a>
+        <a class="more" href="#about">Learn more</a>
+      </div>
+    </div>
+    <div class="flame-floor"></div>
+    <span class="hero-cap">Austell Assembly · 4798 Austell Road, Austell, GA 30106</span>
+  </header>
+
+  <!-- ===== Intro: statement + pillars ===== -->
+  <section class="intro" aria-labelledby="intro-h">
+    <div class="wrap intro-grid">
+      <div class="intro-lead">
+        <span class="intro-rule rv" aria-hidden="true"></span>
+        <h2 id="intro-h" class="intro-h rv" style="--d:.1s">A Bible-believing, Spirit-filled family, sent to belt the globe with the Gospel.</h2>
+        <a class="more rv" style="--d:.2s" href="#about">More about us</a>
+      </div>
+      <div class="pillars">
+        <article class="pillar rv"><h3>Our Vision</h3><p>To be at the cutting edge of Holy Spirit inspired change in the Church and society.</p></article>
+        <article class="pillar rv" style="--d:.1s"><h3>Our Mission</h3><p>To belt the globe with the Gospel and make disciples of Christ who manifest the fruit and gifts of the Holy Spirit.</p></article>
+        <article class="pillar rv" style="--d:.2s"><h3>Core Values</h3><p>The Word held high, the Holy Spirit at the centre, a love for prayer, and sacrificial giving. <a href="#about" data-scroll="valuesList">See all 11</a></p></article>
+        <article class="pillar rv" style="--d:.3s"><h3>Our Tenets</h3><p>Eleven truths at the foundation of our faith, from the Unity of the Godhead to the Baptism of the Holy Ghost. <a href="#about" data-scroll="tenetsSec">Read the Tenets</a></p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Featured video ===== -->
+  <section class="feature-vid" aria-labelledby="fv-h">
+    <div class="wrap">
+      <div class="fv-head rv"><span class="eyebrow" style="color:var(--ember-ink)">Watch</span><h2 id="fv-h">TAC Lovefest 2024</h2></div>
+      <div class="fv-frame rv zoom" id="fvFrame">
+        <video id="fvVideo" preload="none" playsinline poster="assets/images/lovefest-2024-poster.jpg" src="assets/videos/lovefest-2024.mp4"></video>
+        <button type="button" class="fv-play" id="fvPlay" aria-label="Play TAC Lovefest 2024 video">
+          <span class="fv-btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="fv-label glass-lite">Play · 0:57</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Latest from the district ===== -->
+  <section class="latest" aria-labelledby="latest-h">
+    <div class="wrap">
+      <h2 id="latest-h" class="latest-h rv">Latest from the District</h2>
+      <div class="latest-grid">
+        <article class="post rv">
+          <a class="post-img" href="#media" data-gal="Events|Paint In the Park"><img src="assets/images/paint-18.jpg" alt="A member smiling with her sunset painting at Paint In the Park" loading="lazy"></a>
+          <div class="post-body"><span class="post-tag">Events</span><h3>Paint In the Park</h3><p>An evening of colour, laughter and fellowship on the lawn.</p><a class="pill sm ghost" href="#media" data-gal="Events|Paint In the Park">View photos</a></div>
+        </article>
+        <article class="post rv" style="--d:.1s">
+          <a class="post-img" href="#media" data-gal="Events|LoveFest"><img src="assets/images/lovefest-2024-poster.jpg" alt="Still from the TAC Lovefest 2024 video" loading="lazy"></a>
+          <div class="post-body"><span class="post-tag">Events</span><h3>TAC Lovefest 2024</h3><p>Relive the celebration in our event highlights.</p><a class="pill sm ghost" href="#media" data-gal="Events|LoveFest">Watch video</a></div>
+        </article>
+        <article class="post rv" style="--d:.2s">
+          <a class="post-img" href="#media" data-gal="Worship|"><img src="assets/images/worship-a-poster.jpg" alt="A worshipper in prayer during service" loading="lazy"></a>
+          <div class="post-body"><span class="post-tag">Worship</span><h3>Worship moments</h3><p>Glimpses of the presence of God among His people.</p><a class="pill sm ghost" href="#media" data-gal="Worship|">Watch clips</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Six-tile grid ===== -->
+  <section class="tiles6-wrap" aria-label="Find your way around">
+    <div class="wrap tiles6">
+      <a class="t6 rv" href="#austell"><img src="assets/images/austell-church.jpg" alt="" loading="lazy"><span class="t6-txt"><b>Austell<br>Assembly</b><small>4798 Austell Road, Austell, GA 30106</small></span></a>
+      <a class="t6 rv" style="--d:.08s" href="#gwinnett"><img src="assets/images/gwinnett-church.jpg" alt="" loading="lazy"><span class="t6-txt"><b>Gwinnett<br>International</b><small>Many nations. One Spirit.</small></span></a>
+      <a class="t6 rv" style="--d:.16s" href="#ministries"><img src="assets/images/paint-12.jpg" alt="" loading="lazy"><span class="t6-txt"><b>Explore<br>Ministries</b><small>Find where you belong</small></span></a>
+      <a class="t6 rv" href="#about"><img src="assets/images/district-pastor.jpg" alt="" loading="lazy" style="object-position:50% 20%"><span class="t6-txt"><b>Know Our<br>Leaders</b><small>Shepherds of the district</small></span></a>
+      <a class="t6 t6-give rv" style="--d:.08s" href="#give"><span class="t6-glyph" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 41s-15-8.6-15-19.5A8.5 8.5 0 0 1 24 16a8.5 8.5 0 0 1 15 5.5C39 32.4 24 41 24 41z" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M24 22v10M19 27h10" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></span><span class="t6-txt"><b>Give</b><small>Zelle and Cash App</small></span></a>
+      <a class="t6 rv" style="--d:.16s" href="#media"><img src="assets/images/paint-20.jpg" alt="" loading="lazy"><span class="t6-txt"><b>See our<br>Media</b><small>Photos and videos</small></span></a>
+    </div>
+  </section>
+
+  <div class="marquee on-night" aria-label="Our core values">
+    <div class="mq-track" id="mqTrack"></div>
+  </div>
+
+  <!-- ===== Split: motto + this week ===== -->
+  <section class="split" aria-labelledby="week-h">
+    <div class="week-head"><h2 id="week-h" class="latest-h rv">This week at the District</h2></div>
+    <div class="split-tiles" id="weekTiles"></div>
+  </section>
+</section>
+
+<!-- ======================= ABOUT ======================= -->
+<section data-view="about" hidden>
+  <div class="phead wrap">
+    <h1 class="rv">About the District.</h1>
+    <p class="rv" style="--d:.12s">The Georgia District of The Apostolic Church International, gathering believers in Austell and Gwinnett.</p>
+  </div>
+  <div class="section" style="padding-top:40px">
+    <div class="wrap prose">
+      <p class="rv" style="--d:.2s">The Georgia District brings our assemblies in metro Atlanta together under one fellowship. We believe in the full Gospel of Jesus Christ, the baptism and gifts of the Holy Spirit, and a church that continues in the apostles’ doctrine, fellowship, breaking of bread and prayer.</p>
+      <h2 class="rv">Our story</h2>
+      <p class="tbd-block rv" style="--d:.08s"><span class="tbd">Add the district’s history here: when it began, the founding assembly, and how Gwinnett International joined the family.</span></p>
+    </div>
+  </div>
+  <div class="tiles vm">
+    <article class="tile dark on-night vm-tile rv from-left">
+      <p class="eyebrow">Our Vision</p>
+      <p class="vm-text">“To be at the cutting edge of Holy Spirit inspired change in the Church and society.”</p>
+    </article>
+    <article class="tile light vm-tile rv from-right" style="--d:.12s">
+      <p class="eyebrow" style="color:var(--ember-ink)">Our Mission</p>
+      <p class="vm-text">“The Apostolic Church exists to belt the globe with the Gospel and make disciples of Christ who manifest the fruit and gifts of the Holy Spirit.”</p>
+    </article>
+  </div>
+  <section class="section" aria-labelledby="values-h">
+    <div class="wrap">
+      <h2 class="headline rv" id="values-h">Our Core Values.</h2>
+      <p class="lede rv" style="--d:.1s">The core values guiding the execution of this vision are as follows.</p>
+      <ol class="values" id="valuesList"></ol>
+    </div>
+  </section>
+  <section class="tenets-sec" id="tenetsSec" aria-labelledby="tenets-h">
+    <div class="wrap">
+      <p class="eyebrow tenets-eyebrow">What we believe</p>
+      <h2 class="headline" id="tenets-h">The Tenets of the Apostolic Church.</h2>
+      <p class="lede">Eleven truths that form the foundation of our faith.</p>
+      <ol class="tenets" id="tenetsList"></ol>
+    </div>
+  </section>
+  <div class="verse on-night">
+    <div class="wrap">
+      <p class="eyebrow motto-label rv">Our Motto for 2026</p>
+      <blockquote class="rv zoom motto" style="--d:.1s">“You did not choose Me, but I chose you and appointed you that you should go and bear fruit, and that your fruit should remain, that whatever you ask the Father in My name He may give you.”</blockquote>
+      <cite class="rv" style="--d:.45s">JOHN 15:16 · NKJV</cite>
+    </div>
+  </div>
+  <section class="section mist" aria-labelledby="lead-h">
+    <div class="wrap">
+      <h2 class="headline rv" id="lead-h">Leadership.</h2>
+      <p class="lede rv" style="--d:.1s">The ministers and elders serving the church and the Georgia District.</p>
+      <div id="org" class="org" role="list" aria-label="Leadership organizational chart"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ======================= ASSEMBLY VIEWS ======================= -->
+<section data-view="austell" hidden id="view-austell"></section>
+<section data-view="gwinnett" hidden id="view-gwinnett"></section>
+
+<!-- ======================= MINISTRIES ======================= -->
+<section data-view="ministries" hidden>
+  <div class="phead wrap">
+    <h1>Ministries.</h1>
+    <p>Every member a minister. Find where you belong in both assemblies.</p>
+  </div>
+  <div class="section" style="padding-top:20px">
+    <div class="wrap"><div class="grid3" id="ministriesGrid"></div></div>
+  </div>
+</section>
+
+<!-- ======================= EVENTS ======================= -->
+<section data-view="events" hidden>
+  <div class="phead wrap">
+    <h1>Events.</h1>
+    <p>District gatherings and assembly events across Georgia.</p>
+  </div>
+  <div class="section mist">
+    <div class="wrap">
+      <p class="notice">These are sample entries to show the layout. Replace them with real dates in the EVENTS list in the page script.</p>
+      <div class="events" id="eventsList"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= GALLERY ======================= -->
+<section data-view="media" hidden>
+  <div class="phead wrap">
+    <h1>Media.</h1>
+    <p>Photos and videos of worship, prayer and fellowship across the Georgia District.</p>
+  </div>
+  <div class="section" style="padding-top:12px">
+    <div class="wrap">
+      <div class="seg-wrap"><div class="seg" id="galFilters" role="tablist" aria-label="Albums"></div></div>
+      <div class="pgrid" id="photoGrid"></div>
+    </div>
+  </div>
+  <div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Photo and video viewer">
+    <div class="v-bg"></div>
+    <div class="v-stage" id="vStage"></div>
+    <div class="v-bar v-top glass">
+      <button type="button" class="g-btn" id="vClose" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+      <div class="v-title"><b id="vTitle"></b><span id="vSub"></span></div>
+      <span class="g-spacer" aria-hidden="true"></span>
+    </div>
+    <div class="v-bar v-bottom glass">
+      <button type="button" class="g-btn" id="vPrev" aria-label="Previous"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span class="v-cap" id="vCap"></span>
+      <button type="button" class="g-btn" id="vNext" aria-label="Next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= GIVE ======================= -->
+<section data-view="give" hidden>
+  <div class="phead wrap">
+    <h1>Give.</h1>
+    <p>Your tithes and offerings carry the work of the Gospel in Austell, Gwinnett and beyond.</p>
+  </div>
+  <div class="verse">
+    <div class="wrap">
+      <blockquote class="lit-words">“Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.”</blockquote>
+      <cite>2 CORINTHIANS 9:7 · KJV</cite>
+    </div>
+  </div>
+  <section class="section mist">
+    <div class="wrap">
+      <h2 class="headline">Ways to give.</h2>
+      <div class="give-grid">
+        <div class="fact zelle"><span class="k">Online with Zelle</span><span class="v zelle-id" id="zelleId">apostolicatlantabranch@<wbr>gmail.com</span>
+          <span class="n">Open your bank’s app, choose Zelle, and send to this email.</span>
+          <div class="zelle-actions"><button type="button" class="pill sm" id="copyZelle">Copy email</button><span class="copy-note" id="copyNote" role="status"></span></div></div>
+        <div class="fact cashapp"><span class="k">Online with Cash App</span><span class="v zelle-id" id="cashTag">$atlap2020</span>
+          <span class="n">Open Cash App, tap Pay, and send to the church’s $Cashtag.</span>
+          <div class="zelle-actions" id="cashActions"></div></div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ======================= VISIT ======================= -->
+<section data-view="visit" hidden>
+  <div class="phead wrap">
+    <h1>Plan your visit.</h1>
+    <p>Come as you are. We’d love to welcome you this Sunday.</p>
+  </div>
+  <section class="section night on-night">
+    <div class="wrap">
+      <h2 class="headline">What to expect.</h2>
+      <div class="steps">
+        <div class="step"><div class="num">01</div><h3>A warm welcome</h3><p>Ushers will greet you at the door and help you find a seat.</p></div>
+        <div class="step"><div class="num">02</div><h3>Spirit-filled worship</h3><p>Expect heartfelt praise, prayer and the preaching of God’s Word.</p></div>
+        <div class="step"><div class="num">03</div><h3>Stay and connect</h3><p>Meet the pastor and the church family after service.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <h2 class="headline">Let us know you’re coming.</h2>
+      <p class="lede">Send a note and someone from the assembly will reach out.</p>
+      <form class="form" id="visitForm" novalidate>
+        <div class="row">
+          <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="f-phone">Phone (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-assembly">Assembly</label>
+            <select id="f-assembly" name="assembly"><option>Austell Assembly</option><option>Gwinnett International Assembly</option><option>Not sure yet</option></select></div>
+        </div>
+        <div class="field"><label for="f-msg">Message or prayer request</label><textarea id="f-msg" name="message"></textarea></div>
+        <div><button class="pill" type="submit">Send</button></div>
+        <p class="notice" id="formNote" hidden></p>
+      </form>
+    </div>
+  </section>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-foot">
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <img src="assets/images/logo.png" alt="The Apostolic Church International logo" width="60" height="60">
+      <p><b>The Apostolic Church International</b><br>Georgia District</p>
+      <p class="foot-tag">One Shepherd, One Fold.</p>
+    </div>
+    <div><h4>Quick Links</h4><ul>
+      <li><a href="#about">About</a></li><li><a href="#ministries">Ministries</a></li><li><a href="#events">Events</a></li>
+      <li><a href="#media">Media</a></li><li><a href="#give">Give</a></li><li><a href="#visit">Plan a visit</a></li></ul></div>
+    <div><h4>Assemblies</h4><ul>
+      <li><a href="#austell">Austell Assembly</a><small>4798 Austell Road, Austell, GA 30106</small></li>
+      <li><a href="#gwinnett">Gwinnett International Assembly</a><small>4001 Wetherburn Way NW, Suite B, Peachtree Corners, GA 30092</small></li></ul></div>
+    <div><h4>Get in Touch</h4><ul>
+      <li>Phone: 571-409-8322</li>
+      <li><a href="https://zoom.us/j/293417878" target="_blank" rel="noopener">Wednesday Bible Study on Zoom</a><small>Passcode 4798</small></li>
+      <li>Zelle: apostolicatlantabranch@<wbr>gmail.com</li>
+      <li>Email: <a href="mailto:apostolicatlantabranch@gmail.com">apostolicatlantabranch@<wbr>gmail.com</a></li></ul></div>
+  </div>
+  <div class="foot-legal"><div class="wrap legal">
+    <span>© 2026 The Apostolic Church International, Georgia District. All rights reserved.</span>
+    <span>All times are Eastern Time</span>
+  </div></div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
